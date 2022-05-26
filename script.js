@@ -13,9 +13,11 @@ allParagraphs = [
 
     "Bee, makasih banget ya udah mau jadi tempat cerita gue, udah jadi tempat gue ngeluh, bahkan lo bisa nerima hal hal ga jelas gue. Thank you for always being here for me. Dengan adanya lo di hidup gue sekarang, gue udah jarang ngerasa sepi lagi. Lo dateng ke gue di waktu yang tepat banget. Di saat gue lagi butuh tempat buat ngeluarin keluh kesah gue. Maaf banget ya kalo aku belum bisa jadi orang yang kamu expect. Maaf juga waktu itu pernah cuekin kamu. I didn’t mean to but- sorry. Kalo cape sama gue bilang ya. Pun kalo gue berlebihan, bilang aja. Kalo ada yang salah dari cara gue nge-respond lo, bilang aja ya. Pokonya gue mau bikin convo kita senyaman mungkin buat lo. So yea, I want to say thank you very much for being my best part on my life. Thank you for coming here. Thank you for everything you did to me. This could be the last of those paragraph. Once again, thank you. I wish whatever you want will come true. And I wish whatever will happen to us, we can still be this close. Enjoy your life, never give up because of anything, Good Luck! ",
 
-    "Btw barusan aku coba rasa chatime pilihanmu – waktu kita kerkom. And ternyata enak banget woi HAHAHAHAHA",
+    "Btw ga lama setelah ku beli coklat buat kamu, aku coba rasa chatime pilihanmu – waktu kita kerkom. And ternyata enak banget woi HAHAHAHAHA",
 
     "Baguslah kalo kamu suka oreo. Coklatnya dimakan yaaa",
+
+    "Eh btw how was your day di hari ulang tahun kemarin? cerita dongg",
 ];
 cardNumber = 1;
 
