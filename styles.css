@@ -33,22 +33,17 @@ footer {
     }
 }
 
-.carousel-item {
-    overflow: visible;
-}
-.carousel-inner {
-    overflow: visible;
-    margin-bottom: 150px;
-}
-
 .carousel-caption {
-    transform: translateY(120%);
+    font-size: 15px;
+}
+.carousel-caption {
+    font-size: 12px;
 }
 
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.2);
     color: white;
-    padding: 20px;
+    padding: 5px;
 }
 
 .card-body {
