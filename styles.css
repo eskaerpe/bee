@@ -8,7 +8,7 @@ font-family: 'Proza Libre', sans-serif; */
     color: white;
 }
 footer {
-    margin-top: 200px;
+    margin-top: 50px;
     padding-top: 50px;
 }
 
@@ -22,12 +22,12 @@ footer {
         max-width: 1000px;
         margin: auto;
     }
-    #galeri img {
+    #gallery img {
         min-width: 500px;
         max-width: 500px;
     }
 
-    #galeri {
+    #gallery {
         width: 500px;
         margin: auto;
     }
@@ -56,7 +56,7 @@ footer {
     overflow: hidden;
 }
 
-.btn {
+.btn-show {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
@@ -91,6 +91,35 @@ footer {
         top: 100%;
     }
 }
+
+.open-and-close {
+    animation: open-and-close-animation 10s ease-in-out forwards;
+}
+
+@keyframes open-and-close-animation {
+    0% {
+        top: 0;
+    }
+    10% {
+        top: 3rem;
+    }
+    20% {
+        top: 3rem;
+    }
+    40% {
+        top: 100%;
+    }
+    80% {
+        top: 100%;
+    }
+    90% {
+        top: 0;
+    }
+    100% {
+        top: -15%;
+    }
+}
+
 /* @keyframes fade-down-show-animation {
     0% {
         height: 100%;
@@ -104,4 +133,4 @@ footer {
     100% {
         height: 0%;
     }
-} */
+} */ ;

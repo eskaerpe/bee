@@ -12,6 +12,10 @@ allParagraphs = [
     "kalo kata aku ya, jangan bandingin diri kita sama orang lain, ga bakal ada habisnya. mendingan kita bandingin diri kita sama diri kita sendiri di hari sebelumnya, di bulan sebelumnya, di semester sebelumnya. kalo ngerasa belum bagus, kita perbaiki. kalo ngerasa udah cukup, kita tingkatin lagi. kalo ngerasa udah lebih dari cukup, kita pertahanin. iya aku ngerti, kadang ngeliat orang lain bisa dan kita ga bisa tuh rasanya ga enak banget. tapi kita ga bisa ngubah mereka, bee. kita cuma bisa ubah diri kita doang menjadi diri kita dengan versi yang lebih baik. Aku ngerti, yang kita mau tuh sejajarin posisi dia, dan bahkan lewatin dia. tapi inget bee, kita ini di sekolah, bukan kompetisi kok, bukan lomba, jadi lo tenang aja, urutan ga begitu penting. yang penting kita dapet ilmunya dan bisa belajar dari kesalahan. (seems familiar? yea, this is my paragraph that i sent u on whatsapp)",
 
     "Bee, makasih banget ya udah mau jadi tempat cerita gue, udah jadi tempat gue ngeluh, bahkan lo bisa nerima hal hal ga jelas gue. Thank you for always being here for me. Dengan adanya lo di hidup gue sekarang, gue udah jarang ngerasa sepi lagi. Lo dateng ke gue di waktu yang tepat banget. Di saat gue lagi butuh tempat buat ngeluarin keluh kesah gue. Maaf banget ya kalo aku belum bisa jadi orang yang kamu expect. Maaf juga waktu itu pernah cuekin kamu. I didn’t mean to but- sorry. Kalo cape sama gue bilang ya. Pun kalo gue berlebihan, bilang aja. Kalo ada yang salah dari cara gue nge-respond lo, bilang aja ya. Pokonya gue mau bikin convo kita senyaman mungkin buat lo. So yea, I want to say thank you very much for being my best part on my life. Thank you for coming here. Thank you for everything you did to me. This could be the last of those paragraph. Once again, thank you. I wish whatever you want will come true. And I wish whatever will happen to us, we can still be this close. Enjoy your life, never give up because of anything, Good Luck! ",
+
+    "Btw barusan aku coba rasa chatime pilihanmu – waktu kita kerkom. And ternyata enak banget woi HAHAHAHAHA",
+
+    "Baguslah kalo kamu suka oreo. Coklatnya dimakan yaaa",
 ];
 cardNumber = 1;
 
@@ -39,4 +43,9 @@ function showBee() {
     beeFlying = document.createElement("marquee");
     beeFlying.append("🐝🐝");
     document.querySelector(".title-text").appendChild(beeFlying).setAttribute("style", "font-size:35px");
+}
+
+function openAndClose(penutupNumber) {
+    className = document.querySelector(`.closer-${penutupNumber}`);
+    className.classList.add("open-and-close");
 }
